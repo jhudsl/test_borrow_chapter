@@ -1,10 +1,12 @@
 available-course-formats
-introduction
-motivation
-target-audience
-curriculum
-a-new-chapter
+testing-borrow-chapter
 learning-objectives
+what-is-reproducibility
+reproducibility-in-daily-life
+reproducibility-is-worth-the-effort
+reproducibility-exists-on-a-continuum
+a-new-chapter
+learning-objectives-1
 libraries
 topic-of-section
 subtopic
