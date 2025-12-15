@@ -1,19 +1,8 @@
 
-# Introduction
+# Testing Borrow Chapter
 
-
-## Motivation
-
-
-## Target Audience  
-
-The course is intended for ...
-
-## Curriculum  
-
-The course covers...
-
-
-```{r}
-devtools::session_info()
+```{r, echo = FALSE, results = 'asis'}
+ottrpal::borrow_chapter("02-defining-reproducibility.Rmd",
+                repo_name = "jhudsl/Reproducibility_in_Cancer_Informatics",
+                remove_h1 = TRUE)
 ```
