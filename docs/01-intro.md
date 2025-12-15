@@ -1,83 +1,275 @@
 
-# Introduction
+# Testing Borrow Chapter
 
 
-## Motivation
-
-
-## Target Audience  
-
-The course is intended for ...
-
-## Curriculum  
-
-The course covers...
-
-
-
-``` r
-devtools::session_info()
+```
+## Warning in gzfile(file, "rb"): cannot open compressed file
+## '/root/.cache/R/ottrpal/cached-secrets/github.RDS', probable reason 'No such
+## file or directory'
 ```
 
 ```
-## ─ Session info ───────────────────────────────────────────────────────────────
-##  setting  value
-##  version  R version 4.3.2 (2023-10-31)
-##  os       Ubuntu 22.04.4 LTS
-##  system   x86_64, linux-gnu
-##  ui       X11
-##  language (EN)
-##  collate  en_US.UTF-8
-##  ctype    en_US.UTF-8
-##  tz       Etc/UTC
-##  date     2025-12-15
-##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
-## 
-## ─ Packages ───────────────────────────────────────────────────────────────────
-##  package     * version date (UTC) lib source
-##  bookdown      0.46    2025-12-05 [1] CRAN (R 4.3.2)
-##  cachem        1.0.8   2023-05-01 [1] RSPM (R 4.3.0)
-##  cli           3.6.5   2025-04-23 [1] CRAN (R 4.3.2)
-##  devtools      2.4.5   2022-10-11 [1] RSPM (R 4.3.0)
-##  digest        0.6.34  2024-01-11 [1] RSPM (R 4.3.0)
-##  ellipsis      0.3.2   2021-04-29 [1] RSPM (R 4.3.0)
-##  evaluate      1.0.5   2025-08-27 [1] CRAN (R 4.3.2)
-##  fastmap       1.1.1   2023-02-24 [1] RSPM (R 4.3.0)
-##  fs            1.6.3   2023-07-20 [1] RSPM (R 4.3.0)
-##  glue          1.7.0   2024-01-09 [1] RSPM (R 4.3.0)
-##  htmltools     0.5.7   2023-11-03 [1] RSPM (R 4.3.0)
-##  htmlwidgets   1.6.4   2023-12-06 [1] RSPM (R 4.3.0)
-##  httpuv        1.6.14  2024-01-26 [1] RSPM (R 4.3.0)
-##  knitr         1.50    2025-03-16 [1] CRAN (R 4.3.2)
-##  later         1.3.2   2023-12-06 [1] RSPM (R 4.3.0)
-##  lifecycle     1.0.4   2023-11-07 [1] RSPM (R 4.3.0)
-##  magrittr      2.0.3   2022-03-30 [1] RSPM (R 4.3.0)
-##  memoise       2.0.1   2021-11-26 [1] RSPM (R 4.3.0)
-##  mime          0.12    2021-09-28 [1] RSPM (R 4.3.0)
-##  miniUI        0.1.1.1 2018-05-18 [1] RSPM (R 4.3.0)
-##  pkgbuild      1.4.3   2023-12-10 [1] RSPM (R 4.3.0)
-##  pkgload       1.4.1   2025-09-23 [1] CRAN (R 4.3.2)
-##  profvis       0.3.8   2023-05-02 [1] RSPM (R 4.3.0)
-##  promises      1.2.1   2023-08-10 [1] RSPM (R 4.3.0)
-##  purrr         1.0.2   2023-08-10 [1] RSPM (R 4.3.0)
-##  R6            2.6.1   2025-02-15 [1] CRAN (R 4.3.2)
-##  Rcpp          1.0.12  2024-01-09 [1] RSPM (R 4.3.0)
-##  remotes       2.5.0   2024-03-17 [1] CRAN (R 4.3.2)
-##  rlang         1.1.6   2025-04-11 [1] CRAN (R 4.3.2)
-##  rmarkdown     2.25    2023-09-18 [1] RSPM (R 4.3.0)
-##  sessioninfo   1.2.2   2021-12-06 [1] RSPM (R 4.3.0)
-##  shiny         1.8.0   2023-11-17 [1] RSPM (R 4.3.0)
-##  stringi       1.8.3   2023-12-11 [1] RSPM (R 4.3.0)
-##  stringr       1.5.1   2023-11-14 [1] RSPM (R 4.3.0)
-##  urlchecker    1.0.1   2021-11-30 [1] RSPM (R 4.3.0)
-##  usethis       2.2.3   2024-02-19 [1] RSPM (R 4.3.0)
-##  vctrs         0.6.5   2023-12-01 [1] RSPM (R 4.3.0)
-##  xfun          0.54    2025-10-30 [1] CRAN (R 4.3.2)
-##  xtable        1.8-4   2019-04-21 [1] RSPM (R 4.3.0)
-##  yaml          2.3.12  2025-12-10 [1] CRAN (R 4.3.2)
-## 
-##  [1] /usr/local/lib/R/site-library
-##  [2] /usr/local/lib/R/library
-## 
-## ──────────────────────────────────────────────────────────────────────────────
+## Warning in get_token(app_name = "github"): No token found. Please run
+## `authorize()` to supply token.
 ```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.align is not supported for docx output
+```
+
+```
+## Warning: Chunk option fig.alt is not supported for docx output
+```
+
+
+
+
+
+
+## Learning Objectives
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_1205.png)
+
+## What is reproducibility
+
+There's been a lot of discussion about what is included in the term `reproducibility` and there is some discrepancy between fields. For the purposes of informatics and data analysis, a _reproducible analysis is one that can be re-run by a different researcher and the same result and conclusion is found_.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_146.png)
+
+Reproducibility is related to repeatability and replicability but it is worth taking time to differentiate these terms.
+
+Perhaps you are like Ruby and have just found an interesting pattern through your data analysis! This has probably been the result of many months or years on your project and it's worth celebrating!
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_0.png)
+
+But before she considers these results a done deal, Ruby should test whether she is able to re-run her own analysis and get the same results again. This is known as _repeatability_.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_413.png)
+
+Given that Ruby's analysis is repeatable; she may feel confident now to share her preliminary results with her colleague, Avi the Associate. Whether or not someone else will be able to take Ruby's code and data, re-run the analysis and obtain the same results is known as _reproducibility_.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_368.png)
+
+If Ruby's results can be reproduced by Avi, now Avi may collect new data and use Ruby's same analysis methods to analyze his data. Whether or not Avi's new data and results concur with Ruby's study's original inferences is known as _replicability_.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_464.png)
+
+You may realize that these levels of research build on each other (like science is supposed to do). In this way, we can think of them in a hierarchy.  Skipping any of these levels of research applicability can lead to unreliable results and conclusions.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1cd772e00_0_10.png)
+
+Science progresses when data and hypotheses are put through these levels thoroughly and sequentially. If results are not repeatable, they won't be reproducible or replicable. If they are not reproducible, they won't be replicable.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_564.png)
+
+Ideally all analyses and results would be reproducible without too much time and effort spent; this would aid in the efficiency of research getting to the next stages and questions. But unfortunately, in practice, reproducibility is not as commonplace as we would hope. Institutions and reward systems generally do not prioritize or even measure reproducibility in research, and training opportunities for reproducible techniques can be scarce. Reproducible research can often feel like an uphill battle that is made steeper by lack of training opportunities.
+
+In this course, we hope to equip your research with the tools you need to enhance the reproducibility of your analyses so this uphill battle is _less steep_.
+
+## Reproducibility in daily life
+
+What does reproducibility mean in the daily life of a researcher?
+
+Let's say Ruby's results are repeatable in her own hands and she excitedly tells her associate, Avi, about her preliminary findings. Avi is very excited about these results as well as Ruby's methods!
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_179.png)
+
+Ruby sends Avi the code and data she used to obtain the results. Now, whether or not Avi is able to obtain the same exact results with this same data and same analysis code will indicate if Ruby's analysis is reproducible.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_944.png)
+
+Ruby may have spent a lot of time on her code and getting it to work on her computer, but whether it will successfully run on Avi's computer is another story. Often when researchers share their analysis code it leads to a substantial amount of effort on the part of the researcher who has received the code to get it working and this often cannot be done successfully without help from the original code author [@BeaulieuJones2017].
+
+Avi is encountering errors because Ruby's code was written with Ruby's computer and local setup in mind and she didn't know how to make it more generally usable. Avi is spending a lot of time just trying to re-run Ruby's same analysis on her same data; he has yet to be able to try the code on any additional data (which may bring up even more errors).
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_993.png)
+
+Avi is still struggling to work with Ruby's code and is confused about the goals and approaches the code is taking. After struggling with Ruby's code for an untold amount of time, Avi may decide it's time to email Ruby to get some clarity. Now both Avi and Ruby are confused about why this analysis isn't nicely re-running for Avi. Their attempts to communicate about the code through email haven't helped them clarify anything. Multiple versions of the code may have been sent back and forth between them and now things are taking a lot more time than either of them expected.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_1066.png)
+
+Perhaps at some point Avi is able to successfully run Ruby's code on Ruby's same data. Just because Avi didn't get any errors doesn't mean that the code ran exactly the same as it did for Ruby.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_673.png)
+
+Lack of errors also doesn't mean that either Ruby or Avi's runs of the code ran with high accuracy or that the results can be trusted. Even a small difference in decimal point may indicate a more fundamental difference in how the analysis was performed and this could be due to differences in software versions, settings, or any number of items in their computing environments.
+
+## Reproducibility is worth the effort!
+
+Perhaps you've found yourself in a situation like Ruby and Avi; struggling to re-run code that you thought for sure was working a minute ago. In the upcoming chapters, we will discuss how to bolster your projects' reproducibility.
+
+As you apply these reproducible techniques to your own projects, you may feel like it is taking more time to reach endpoints, but keep in mind that reproducible analyses and projects have higher upfront costs but will absolutely pay off in the long term.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_38.png)
+
+Reproducibility in your analyses is not only a time saver for yourself, but also your colleagues, your field, and your future self!
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1cd772e00_0_5.png)
+
+You might not change a single character in your code but then return to it in a few days/months/years and find that it no longer runs! Reproducible code stands the test of time longer, making 'future you' glad you spent the time to work on it. It's said that your closest collaborator is you from 6 months ago but you don't reply to email [@Broman].
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1cd772e00_0_330.png)
+
+Many a data scientist has referred to their frustration with their past selves:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dear past-Hadley: PLEASE COMMENT YOUR CODE BETTER. Love present-Hadley</p>&mdash; Hadley Wickham (\@hadleywickham) <a href="https://twitter.com/hadleywickham/status/718203628528349184?ref_src=twsrc%5Etfw">April 7, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The more you comment your code, and make it clear and readable, the more your future self will thank you.
+
+Reproducible code also saves your colleagues time! The more reproducible your code is, the less time all of your collaborators will need to spend troubleshooting it. The more people who use your code and need to try to fix it, the more time is wasted. This can add up to a lot of wasted researcher time and effort.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1cd772e00_0_160.png)
+
+But, reproducible code saves everyone exponential amounts of time and effort! It will also motivate individuals to use and cite your code and analyses in the future!
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1cd772e00_0_53.png)
+
+## Reproducibility exists on a continuum!
+
+Incremental work on your analyses is good! You do not need to make your analyses perfect on the first try or even within a particular time frame. The first step in creating an analysis is to get it to work once! But the work does not end there. Furthermore, no analysis is or will ever be perfect in that it will not be reproducible in every single context throughout time. Incrementally pushing our analyses toward the right of this continuum is the goal.
+
+![](01-intro_files/figure-docx//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf7bed24491_1_0.png)
