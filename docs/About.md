@@ -51,7 +51,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  collate  en_US.UTF-8
 ##  ctype    en_US.UTF-8
 ##  tz       Etc/UTC
-##  date     2025-12-15
+##  date     2025-12-16
 ##  pandoc   3.1.1 @ /usr/local/bin/ (via rmarkdown)
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@ These credits are based on our [course contributors table guidelines](https://ww
 ##  urlchecker    1.0.1   2021-11-30 [1] RSPM (R 4.3.0)
 ##  usethis       2.2.3   2024-02-19 [1] RSPM (R 4.3.0)
 ##  vctrs         0.6.5   2023-12-01 [1] RSPM (R 4.3.0)
-##  xfun          0.54    2025-10-30 [1] CRAN (R 4.3.2)
+##  xfun          0.55    2025-12-16 [1] CRAN (R 4.3.2)
 ##  xtable        1.8-4   2019-04-21 [1] RSPM (R 4.3.0)
 ##  yaml          2.3.12  2025-12-10 [1] CRAN (R 4.3.2)
 ## 

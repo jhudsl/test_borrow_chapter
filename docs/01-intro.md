@@ -3,17 +3,6 @@
 
 
 ```
-## Warning in gzfile(file, "rb"): cannot open compressed file
-## '/root/.cache/R/ottrpal/cached-secrets/github.RDS', probable reason 'No such
-## file or directory'
-```
-
-```
-## Warning in get_token(app_name = "github"): No token found. Please run
-## `authorize()` to supply token.
-```
-
-```
 ## Warning: Chunk option fig.align is not supported for docx output
 ```
 
