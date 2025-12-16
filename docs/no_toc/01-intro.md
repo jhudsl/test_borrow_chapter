@@ -2,22 +2,6 @@
 # Testing Borrow Chapter
 
 
-```
-## Warning in gzfile(file, "rb"): cannot open compressed file
-## '/github/home/.cache/R/ottrpal/cached-secrets/github.RDS', probable reason 'No
-## such file or directory'
-```
-
-```
-## Warning in get_token(app_name = "github"): No token found. Please run
-## `authorize()` to supply token.
-```
-
-
-
-
-
-
 ## Learning Objectives
 
 <img src="01-intro_files/figure-html//1LMurysUhCjZb7DVF6KS9QmJ5NBjwWVjRn40MS9f2noE_gf1accd298e_0_1205.png" alt="This chapter will demonstrate how to: Understand the fundamental concepts of reproducibility vs replicability vs repeatability. Understand how working to make your analyses reproducible save your time and the time of your collaborators. Understand how working toward reproducible analyses enhances the accuracy of analysis results." width="1250" style="display: block; margin: auto;" />
